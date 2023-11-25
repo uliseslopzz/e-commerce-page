@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tierra de Libros</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+	<link rel="icon" href="public/img/tdl.ico">
+	<script src="https://kit.fontawesome.com/69b201213c.js" crossorigin="anonymous"></script>
+	<script src="public/js/darkmode.js"></script>
+</head>
+<body>
+    <header class="banner">
+        <nav>
+            <ul class="menu">
+                <li><a href="#"><img src="public/img/tierra-de-libros-blanco-short.png" alt="Tierra de Libros" id="tierradelibros-header"></a></li>
+                <li class="options"><a href="#">Categorías</a>
+                    <div class="dropdown">
+                        <a href="#destacados">Destacados</a>
+                        <a href="#recomendados">Recomendados</a>
+                        <a href="#novedades">Novedades</a>
+                    </div>
+                </li>
+                <li class="options"><a href="public/views/genres.html">Géneros</a>
+                    <div class="dropdown">
+						<a href="public/views/genres.html#autoayuda">Autoayuda</a>
+                        <a href="public/views/genres.html#ciencia-ficción">Ciencia ficción</a>
+                        <a href="public/views/genres.html#fantasía">Fantasía</a>
+                        <a href="public/views/genres.html#grandes-clásicos">Grandes clásicos</a>
+                        <a href="public/views/genres.html#novela">Novela</a>
+                        <a href="public/views/genres.html#terror">Terror</a>
+                    </div>
+                </li>
+                <li class="options"><a href="public/views/about.html">Sobre nosotros</a></li>
+
+				<li class="icon"><a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></a></li>
+				
+				<li class="icon"><a href="public/views/cart.html"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a></li>
+
+				<li class="icon"><a href="public/views/profile.html"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a></li>
+
+				<li class="icon" id="icon-darkmode-li"><img id="icon-darkmode" src="public/img/moon.png"></li>
+            </ul>
+        </nav>
+    </header>
+
+	<div class="search-container">
+        <input type="text" id="searchinput" placeholder="Buscar libros, géneros y más...">
+		<button id="clearbutton">╳</button>
+        <button id="search-button"><i class="fa fa-search"></i></button>
+    </div>
+
+	<a href="#whatsapp" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+
+    <main class="principal">
+        <section class="container-products">
+			<h2 id="destacados">Destacados</h2>
+
+			<div class="card-list-products">
+
+				<div class="card">
+				<a href="public/views/products/los-secretos-de-dumbledore.html">
+					<div class="card-img">
+						
+						<img
+							src="public/img/los-secretos-de-dumbledore.webp"
+							alt="Los secretos de dumbledore"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Los secretos de Dumbledore</h3>
+							<p class="category">Aventura, Fantasía</p>
+						</div>
+						<div class="price">$11.899</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/1984.html">
+					<div class="card-img">
+						<img
+							src="public/img/1984.webp"
+							alt="1984"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>1984</h3>
+							<p class="category">Ciencia ficción</p>
+						</div>
+						<div class="price">$4.861</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/un-mundo-feliz.html">
+					<div class="card-img">
+						<img
+							src="public/img/un-mundo-feliz.webp"
+							alt="Un mundo feliz"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Un mundo feliz</h3>
+							<p class="category">Novela, Ciencia ficción</p>
+						</div>
+						<div class="price">$6.929</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/el-poder-de-las-palabras.html">
+					<div class="card-img">
+						<img
+							src="public/img/el-poder-de-las-palabras.webp"
+							alt="El poder de las palabras"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>El poder de las palabras</h3>
+							<p class="category">Autoayuda</p>
+						</div>
+						<div class="price">$7.999</div>
+					</div>
+				</a>
+				</div>
+			</div>
+		</section>
+        
+
+		
+        <section class="container-products">
+			<h2 id="recomendados">Recomendados</h2>
+
+			<div class="card-list-products">
+
+				<div class="card">
+				<a href="public/views/products/hush-hush.html">
+					<div class="card-img">
+						<img
+							src="public/img/hush-hush.webp"
+							alt="Hush-Hush"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Hush, Hush</h3>
+							<p class="category">Novela, Ficción</p>
+						</div>
+						<div class="price">$14.499</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/crepúsculo.html">
+					<div class="card-img">
+						<img
+							src="public/img/crepusculo.webp"
+							alt="Crepúsculo"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Crepúsculo</h3>
+							<p class="category">Novela, Ficción, Romance</p>
+						</div>
+						<div class="price">$13.799</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/orgullo-y-prejuicio.html">	
+					<div class="card-img">
+						<img
+							src="public/img/orgullo-y-prejuicio.webp"
+							alt="Orgullo y prejuicio"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Orgullo y prejuicio</h3>
+							<p class="category">Novela, Ficción, Romance</p>
+						</div>
+						<div class="price">$9.990</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/rebelion-en-la-granja.html">
+					<div class="card-img">
+						<img
+							src="public/img/rebelion-en-la-granja.webp"
+							alt="Rebelión en la granja"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Rebelión en la granja</h3>
+							<p class="category">Novela, Sátira política, Ficción</p>
+						</div>
+						<div class="price">$4.799</div>
+					</div>
+				</a>
+				</div>
+
+			</div>
+		</section>
+        
+
+
+        <section class="container-products last-container-products">
+			<h2 id="novedades">Novedades</h2>
+
+			<div class="card-list-products">
+
+				<div class="card">
+				<a href="public/views/products/un-mundo-de-ensueño.html">
+					<div class="card-img">
+						<img
+							src="public/img/un-mundo-de-ensueño.webp"
+							alt="Un mundo de ensueño"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Un mundo de ensueño</h3>
+							<p class="category">Ficción, Romance, Fantasía</p>
+						</div>
+						<div class="price">$9.899</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/elon-musk.html">
+					<div class="card-img">
+						<img
+							src="public/img/elon-musk.webp"
+							alt="Elon Musk"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Elon Musk</h3>
+							<p class="category">Biografía</p>
+						</div>
+						<div class="price">$14.999</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/holly.html">
+					<div class="card-img">
+						<img
+							src="public/img/holly.webp"
+							alt="Holly"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Holly</h3>
+							<p class="category">Terror, Misterio, Suspenso</p>
+						</div>
+						<div class="price">$15.999</div>
+					</div>
+				</a>
+				</div>
+
+				<div class="card">
+				<a href="public/views/products/alguien-ha-vuelto.html">
+					<div class="card-img">
+						<img
+							src="public/img/alguien-ha-vuelto.webp"
+							alt="Alguien ha vuelto"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Alguien ha vuelto (Alguien está mintiendo 3)</h3>
+							<p class="category">Adolescencia, Misterio, Drama</p>
+						</div>
+						<div class="price">$8.999</div>
+					</div>
+				</a>
+				</div>
+				
+			</div>
+		</section>
+    </main>
+
+	<footer id="footer" class="footer">
+		<div class="footer-container">
+			<div class="footer-row">
+				<div class="footer-section">
+					<a href="#"><img src="public/img/tierra-de-libros-blanco-short.png" alt="Tierra de Libros" id="tierradelibros"></a>
+					<ul>
+						<li><a href="public/views/about.html"><p>Sobre nosotros</p></a></li>
+						<li><a href="#footer"><p>Condiciones de uso</p></a></li>
+						<li><a href="#footer"><p>Protección de datos</p></a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h4>Soporte</h4>
+					<ul>
+						<li><a href="#footer"><p>Preguntas frecuentes</p></a></li>
+						<li><a href="#footer"><p>Política de privacidad</p></a></li>
+						<li><a href="#footer"><p>Contáctanos</p></a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h4>Seguinos</h4>
+					<div class="social-link">
+						<a href="#footer"><i class="fa-brands fa-facebook fa-lg"></i></a>
+						<a href="#footer"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a>
+						<a href="#footer"><i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i></a>
+						<a href="#footer"><i class="fa-brands fa-tiktok fa-lg" style="color: #ffffff;"></i></a>
+					</div>
+				</div>
+				<div class="footer-section">
+					<h4>Métodos de pago</h4>
+					<img src="public/img/metodos-de-pago.png" alt="Métodos de pago" id="metodos">
+				</div>
+			</div>
+			<div class="copyright">
+				<h5>© 2023. Tierra de Libros. Todos los Derechos Reservados</h5>
+			</div>
+		</div>
+	</footer>
+
+	<script src="public/js/main.js"></script>
+</body>
+</html>
