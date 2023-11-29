@@ -338,6 +338,9 @@ img {
 
 .card-img {
   margin: 30px 30px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 	background: transparent;
 }
 
@@ -365,7 +368,7 @@ img {
 	color: var(--primary-black);
 	font-weight: 300;
 	line-height: 1;
-  margin-left: 30px;
+  margin-left: 38px;
   margin-right: 30px;
 }
 
@@ -923,16 +926,11 @@ dl {
   margin-bottom: -12px;
 }
 
-@media screen and (max-width: 764px) {
-  .main-profile {
-    margin-top: 180px;
+@media only screen and (min-width: 600px) {
+  .profile-data {
+    width: 50%;
   }
-
-  #edit {
-    margin-left: 330px;
-  }
-} 
-
+}
 /* Página About Us */
 
 .title-about {
