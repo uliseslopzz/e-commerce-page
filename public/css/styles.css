@@ -63,6 +63,10 @@ body {
   z-index: 100;
 }
 
+.banner-signup {
+  padding-bottom: 17px;
+}
+
 .options {
   position: relative;
   display: flex;
@@ -70,13 +74,22 @@ body {
   cursor: pointer;
   height: 100%;
   list-style: none;
-  margin-left: 100px;
+  margin-left: 95px;
+  left: 35px;
+}
+
+.options-signup {
+  padding-top: 8px;
+}
+
+.darkmode-signup {
+  margin-top: 6px;
 }
 
 .icon {
   display: flex;
   position: relative;
-  left: 100px;
+  left: 140px;
 }
 
 .fa-cart-shopping, .fa-magnifying-glass, .fa-user, #icon-darkmode {
@@ -291,7 +304,7 @@ li:hover .dropdown {
   transition: .3s;
 }
 
-/* Página Main */
+/* Página Principal */
 
 .principal {
 	display: flex;
@@ -852,85 +865,80 @@ dl {
   margin-bottom: 10px;
 }
 
-/* Página de Perfil */
+/* Página de Formulario */
 
-.main-profile {
-  max-width: 800px;
-  margin: 100px auto 40px auto;
-  background-color: var(--primary-white);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+/* .main-signup {
+  background-color: var(--secondary-black);
+  margin: 0 400px;
+  border-radius: 32px;
 }
 
-.container-profile {
-  width: 128px;
-  height: 128px;
+#signup-title {
+  text-align: center;
+  margin-top: 160px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  color: var(--secondary-white);
 }
 
-.container-profile img {
-  border-radius: 50%;
+form {
+  margin: 0 60px;
+  padding-bottom: 40px;
+  border-radius: 16px;
 }
 
-#profile {
-  margin: 10px 0px 10px 0px;
-  padding: 20px 40px;
-  background-color: var(--secondary-white);
-}
-
-#profile h1 {
-  display: block;
-  color: var(--primary-black);
-  font-size: 40px;
-  margin-left: 160px;
-  margin-top: -95px;
-  margin-bottom: 10px;
-  font-weight: 400;
-}
-
-#profile h2 {
-  color: var(--primary-black);
-  font-size: 28px;
-  margin-top: 80px;
-  margin-bottom: 30px;
-  display: block;
-}
-
-#profile a {
-  text-decoration: none;
-  color: var(--primary-black);
-}
-
-#edit {
-  display: block;
-  margin-top: -60px;
-  margin-left: 400px;
-  font-weight: bold;
-  margin-bottom: 60px;
-}
-
-.profile-information h3 {
-  color: var(--primary-black);
-  flex: 1;
-  font-size: 18px;
-}
-
-.profile-information p {
-  color: var(--primary-black);
-  flex: 2;
-}
-
-.profile-data {
-  align-items: center;
+.btn-primary {
   display: flex;
-  flex-direction: row;
-  margin-top: -12px;
-  margin-bottom: -12px;
+  position: relative;
+  left: 374px;
+  margin-top: 20px;
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+  border-color: #3f3f3f;
 }
 
-@media only screen and (min-width: 600px) {
-  .profile-data {
-    width: 50%;
+.btn-primary:hover{
+  background-color: #d98324;
+} */
+
+.main-signup {
+  background-color: var(--secondary-black);
+  margin: 0 auto;
+  max-width: 600px;
+  margin-top: 160px;
+  border-radius: 32px;
+  padding: 20px;
+}
+
+#signup-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--secondary-white);
+}
+
+form {
+  margin: 0;
+}
+
+.btn-primary {
+  display: block;
+  margin: 20px auto 0;
+  background-color: var(--primary-white);
+  color: var(--primary-black);
+  border-color: #3f3f3f;
+}
+
+.btn-primary:hover {
+  background-color: #d98324;
+  border-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .main-signup {
+    margin: 240px 20px 0 20px;
   }
 }
+
 /* Página About Us */
 
 .title-about {
